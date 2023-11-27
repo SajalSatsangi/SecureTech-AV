@@ -1,0 +1,59 @@
+.contact-container {
+    width: 100%;
+    height: 706px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: url('../img/contact-bg.png');
+}
+
+.contact-sub-heading {
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    width: 550px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.contact-sub-heading-2 {
+    margin-top: 10px;
+    color: #E18B30;
+    font-size: 20px;
+    position: relative;
+    width: 550px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-sub-heading-2 span {
+    color: black;
+}
+
+.contact-sub-heading-3 {
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    width: 250px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    position: relative;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.card h2{
+
+}
