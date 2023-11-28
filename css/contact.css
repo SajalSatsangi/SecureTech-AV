@@ -46,7 +46,6 @@
 .card {
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
     color: black;
     font-size: 30px;
     position: relative;
@@ -54,6 +53,60 @@
     margin-bottom: 40px;
 }
 
-.card h2{
+.contact-form-title {
+    font-size: 48px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
 
+.col {
+    display: flex;
+}
+
+.input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid black;
+    height: 36px;
+    border-radius: 2px;
+    width: 100%;
+    padding-left: 5px;
+}
+
+.textarea {
+    background-color: transparent;
+    border: 1px solid black;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.space {
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.submit {
+    top: 330px;
+    right: 380px;
+    position: absolute;
+    background: #FFA342;
+    border: 2px solid black;
+    padding: 9px 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.submit:hover {
+    opacity: 0.9;
+}
+
+.submit:active {
+    opacity: 0.7;
+}
+
+.input:focus,
+.textarea:focus {
+    outline: none;
 }
