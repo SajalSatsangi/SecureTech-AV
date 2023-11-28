@@ -23,7 +23,7 @@
 }
 
 .brand-logo {
-    height: 60px;
+    height: 40px;
     float: left;
 }
 
@@ -38,9 +38,9 @@
 .link {
     text-transform: capitalize;
     text-decoration: none;
-    color: white;
+    color: #fff;
     transition: .05s;
-    font-size: 23px;
+    font-size: 19px;
 }
 
 .link:hover {
@@ -48,8 +48,9 @@
 }
 
 .logo-name {
-    color: white;
+    color: #fff;
     position: relative;
     width: 381px;
     left: 11px;
+    font-size: 12px;
 }

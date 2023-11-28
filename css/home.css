@@ -3,7 +3,7 @@
 
 .hero-section {
     width: 100%;
-    height: calc(100vh - 120px);
+    height: calc(105vh - 120px);
     background-image: url('../img/Banner.gif');
     background-size: cover;
     display: flex;
@@ -13,9 +13,9 @@
     margin-top: 10px;
     color: white;
     text-transform: capitalize;
-    font-size: 50px;
+    font-size: 45px;
     position: relative;
-    top: 180px;
+    top: 200px;
     left: 143px;
     width: 648px;
 }
@@ -31,7 +31,7 @@
 
 .product-title {
     padding: 0 10vw;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     text-align: center;
     text-decoration: underline;
@@ -53,7 +53,7 @@
 .product-card {
     flex: 0 0 auto;
     width: 300px;
-    height: 485px;
+    height: 450px;
     margin-right: 80px;
     background: #000;
     color: white;
@@ -102,6 +102,7 @@
     text-align: center;
     margin-top: 5px;
     text-decoration: underline;
+    font-size: 18px;
 }
 
 .product-short-des {
@@ -113,6 +114,7 @@
     padding: 5px 15px;
     text-align: center;
     font-weight: 300;
+    font-size: 12px;
 }
 
 
@@ -143,7 +145,7 @@ main {
     text-align: center;
     color: #000;
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 900;
     text-decoration: none;
     position: relative;
@@ -167,7 +169,7 @@ main {
     margin-top: 30px;
     text-align: center;
     color: #000;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     text-decoration: none;
 }
@@ -204,7 +206,7 @@ main {
 }
 
 .title{
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     position: relative;
     margin-bottom: 70px;
@@ -228,9 +230,9 @@ main {
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 0 10px;
+    padding: 0 40px;
     margin-bottom: 63px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .part1:after{
@@ -249,8 +251,8 @@ main {
     display: flex;
     justify-content: space-between;
     position: relative;
-    padding: 0 10px;
-    font-size: 15px;
+    padding: 0 60px;
+    font-size: 12px;
     margin-bottom: 38px;
 }
 
