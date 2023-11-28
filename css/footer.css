@@ -74,6 +74,7 @@ footer {
     height: 64px;
     align-items: center;
     margin-left: -28px;
+    margin-top: 10px;
 }
 
 .logo-bottom-name p {
@@ -96,6 +97,7 @@ footer {
 
 .about {
     margin-top: 16px;
+    margin-left: 72px;
 }
 
 .footer-bottom {
@@ -105,10 +107,6 @@ footer {
     background: #111111;
     padding: 12px;
     color: #959595;
-}
-
-.footer-bottom span {
-    margin-right: -92px;
 }
 
 .read {
