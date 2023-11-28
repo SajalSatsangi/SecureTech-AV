@@ -292,39 +292,3 @@ main {
     flex-direction: column;
     margin-left: 150px;
 }
-
-.pre-btn,
-.nxt-btn {
-    border: none;
-    width: 9vw;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-    cursor: pointer;
-    z-index: 8;
-    padding-left: 40px;
-    margin-top: 75px;
-}
-
-.nxt-btn{
-    right: 0;
-    transform: rotate(180deg);
-}
-
-.pre-btn{
-    left: 0;
-}
-
-.pre-btn img,
-.nxt-btn img{
-    opacity: 0.5;
-}
-
-.pre-btn:hover img,
-.nxt-btn:hover img{
-    opacity: 1;
-}
