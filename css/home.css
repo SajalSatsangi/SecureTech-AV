@@ -165,7 +165,7 @@ main {
     filter: blur(1px);
 }
 
-.description .sub-heading-3{
+.description .sub-heading-3 {
     margin-top: 30px;
     text-align: center;
     color: #000;
@@ -174,45 +174,46 @@ main {
     text-decoration: none;
 }
 
-.content-3{
+.content-3 {
     width: 51%;
 }
 
 
 /* solutions */
 
-.solutions{
+.solutions {
     display: flex;
     justify-content: space-around;
     margin-bottom: 150px;
 }
 
-.solutions-services, .venue-spaces{
+.solutions-services,
+.venue-spaces {
     border: 2px black solid;
     padding: 50px 20px 0 20px;
 }
 
-.solutions-services{
+.solutions-services {
     margin-left: 20px;
 }
 
-.venue-spaces{
+.venue-spaces {
     margin-right: 20px;
 }
 
-.header{
+.header {
     display: flex;
     justify-content: center;
 }
 
-.title{
+.title {
     font-size: 28px;
     font-weight: 700;
     position: relative;
     margin-bottom: 70px;
 }
 
-.solutions .title:after{
+.solutions .title:after {
     content: '';
 
     width: 100%;
@@ -226,7 +227,7 @@ main {
     filter: blur(1px);
 }
 
-.part1{
+.part1 {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -235,7 +236,7 @@ main {
     font-size: 12px;
 }
 
-.part1:after{
+.part1:after {
     content: '';
 
     width: 100%;
@@ -247,7 +248,7 @@ main {
     border-style: solid;
 }
 
-.part2{
+.part2 {
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -256,7 +257,7 @@ main {
     margin-bottom: 38px;
 }
 
-.part2:after{
+.part2:after {
     content: '';
 
     width: 100%;
@@ -268,26 +269,62 @@ main {
     border-style: solid;
 }
 
-.info{
+.info {
     display: flex;
     flex-direction: column;
     margin-right: 40px;
 }
 
-.info1{
+.info1 {
     display: flex;
     flex-direction: column;
     margin-left: 40px;
 }
 
-.info2{
+.info2 {
     display: flex;
     flex-direction: column;
     margin-right: 150px;
 }
 
-.info3{
+.info3 {
     display: flex;
     flex-direction: column;
     margin-left: 150px;
+}
+
+.pre-btn,
+.nxt-btn {
+    border: none;
+    width: 9vw;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+    padding-left: 40px;
+    margin-top: 75px;
+}
+
+.nxt-btn{
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.pre-btn{
+    left: 0;
+}
+
+.pre-btn img,
+.nxt-btn img{
+    opacity: 0.5;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img{
+    opacity: 1;
 }
