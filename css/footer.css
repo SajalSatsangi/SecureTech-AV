@@ -34,6 +34,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin-top: 12px;
+    margin-left: -145px;
 }
 
 .contact-title {
@@ -60,7 +61,6 @@ footer {
     flex-direction: column;
     height: 64px;
     align-items: center;
-    margin-left: -28px;
 }
 
 .logo-bottom-name p {
@@ -92,10 +92,6 @@ footer {
     background: #111111;
     padding: 12px;
     color: #959595;
-}
-
-.footer-bottom span {
-    margin-right: -92px;
 }
 
 .read {
