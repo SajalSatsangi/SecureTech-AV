@@ -1,0 +1,75 @@
+.solutions-page {
+    margin: 75px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 386px;
+    width: 393px;
+    border-radius: 15px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+    padding: 25px;
+}
+
+.sol:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.sol-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.image-sol{
+    width: 45%;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.image-sol-2{
+    width: 45%;
+    border-radius: 0px 50px 50px 0px;
+    margin-right: 20px;
+}
+
+.bottom{
+    font-size: 18px;
+}
+
+.font-size{
+    font-size: 14px !important;
+}
+
+.font-size-2{
+    font-size: 23px !important;
+}
+
+.font-size-3{
+    font-size: 23px !important;
+}
+
+.font-size-4{
+    font-size: 19px !important;
+}
+
+.font-size-5{
+    font-size: 20px !important;
+}
+
+.font-size-6{
+    font-size: 15.5px !important;
+}

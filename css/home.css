@@ -1,5 +1,8 @@
 @import 'nav.css';
 @import 'footer.css';
+@import 'contact.css';
+@import 'about.css';
+@import 'solution.css';
 
 .hero-section {
     width: 100%;
