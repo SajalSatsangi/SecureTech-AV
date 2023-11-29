@@ -1,0 +1,141 @@
+.header-about{
+    width: 100%;
+    height: calc(25vh - 25px);
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.header-about h2{
+    text-decoration: underline;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+main-section{
+    display: flex;
+    margin: 150px 0;
+    align-items: center;
+}
+
+main-section img{
+    border-radius: 0px 100px 100px 0px;
+    margin-right: 60px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+}
+
+.para p{
+    margin: 3px 20px;
+    font-weight: 400;
+}
+
+.para h2{
+    margin: 8px 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+main-section-2{
+    display: flex;
+    align-items: center;
+}
+
+main-section-2 img{
+    border-radius: 100px 0 0 100px;
+    margin-left: 100px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+}
+
+.para p{
+    margin: 3px 20px;
+    font-weight: 400;
+}
+
+.para p span{
+    font-weight: 600;
+}
+
+.para h2{
+    margin: 8px 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.dis{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+.dis2{
+    font-size: 15px;
+}
+
+main-section-3{
+    display: flex;
+    margin: 150px 0;
+    align-items: center;
+}
+
+main-section-3 img{
+    border-radius: 0 100px 100px 0;
+    margin-right: 40px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+}
+
+.dis3{
+    font-size: 13px;
+}
+
+.dis4{
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}
+
+main-section-4{
+    display: flex;
+    margin: 150px 0;
+    align-items: center;
+    padding: 0 200px;
+}
+
+main-section-4 img{
+    border-radius: 0 100px 100px 0;
+    margin-right: 40px;
+    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+}
+
+main-section-4 .para h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dis5{
+    font-size: 15px;
+}
+
+.dis6{
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    font-size: 18px;
+}
+
+.dis7{
+    margin-bottom: 10px !important;
+    margin-top: 15px !important;
+    font-size: 18px;
+}
