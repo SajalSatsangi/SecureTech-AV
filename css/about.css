@@ -1,13 +1,13 @@
 .header-about {
     width: 100%;
     height: calc(25vh - 25px);
-    background: #000;
     color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     padding: 0 100px;
+    background: url('../img/about-bg.gif') center/cover;
 }
 
 .header-about h2 {
