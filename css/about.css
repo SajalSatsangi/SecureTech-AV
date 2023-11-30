@@ -1,3 +1,21 @@
+.hero-header{
+    background: url('../img/about-bg.gif') center/cover;
+}
+
+.contact-hero-section-2 {
+    width: 100%;
+    height: calc(15vh - 2px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-hero-section-2 p {
+    font-size: 45px;
+    color: #fff;
+}
+
 .header-about {
     width: 100%;
     height: calc(25vh - 25px);
@@ -7,7 +25,6 @@
     flex-direction: column;
     text-align: center;
     padding: 0 100px;
-    background: url('../img/about-bg.gif') center/cover;
 }
 
 .header-about h2 {
@@ -41,7 +58,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     height: 988px;
     width: 100%;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
