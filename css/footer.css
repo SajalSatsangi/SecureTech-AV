@@ -33,7 +33,6 @@ footer {
 .contact {
     display: flex;
     flex-direction: column;
-    margin-top: 12px;
 }
 
 .contact-title {
@@ -48,6 +47,7 @@ footer {
 
 .contact-logo {
     margin-right: 6px;
+    margin-top: 2px;
 }
 
 .contact span {
