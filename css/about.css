@@ -1,8 +1,11 @@
+.bg{
+    background: url('../img/about-bg.gif') center/cover;
+}
+
 .contact-hero-section-2 {
     width: 100%;
     height: calc(15vh - 2px);
     display: flex;
-    background: url('../img/about-bg.gif') center/cover;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -20,7 +23,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #000;
     text-align: center;
     padding: 0 100px;
 }
