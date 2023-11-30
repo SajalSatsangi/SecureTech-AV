@@ -192,15 +192,15 @@ main {
 
 .solutions-services {
     border: 2px black solid;
-    padding: 50px 50px 50px 50px;
+    padding: 50px 60px 50px 60px;
 }
 
 .venue-spaces {
     border: 2px black solid;
-    padding: 52px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
 }
 
-.header {
+.part-header {
     display: flex;
     justify-content: center;
 }
@@ -209,6 +209,7 @@ main {
     position: relative;
     text-align: center;
     padding: 0 5px;
+    line-height: 32px;
 }
 
 .title:after {
@@ -217,7 +218,7 @@ main {
     width: 100%;
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: 0px;
 
     border-width: 0 0 4px;
     border-style: solid;
@@ -234,13 +235,21 @@ main {
     width: 600px;
 }
 
+.part-text-title{
+    line-height: 20px;
+}
+
+.part-des{
+    line-height: 18px;
+}
+
 .part::after {
     content: '';
 
     width: 100%;
     position: absolute;
     left: 0;
-    bottom: -2px;
+    bottom: 0px;
 
     border-width: 0 0 4px;
     border-style: solid;
