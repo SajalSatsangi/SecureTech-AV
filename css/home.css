@@ -272,14 +272,14 @@ main {
     }
 }
 
-@keyframes scroll2{
+/* @keyframes scroll2{
     0%{
         transform: translate(0);
     }
     100%{
         transform: translate(calc(-200px*2));
     }
-}
+} */
 
 .slider .slide-track{
     animation: scroll 40s linear infinite;
@@ -288,14 +288,14 @@ main {
 }
 
 .slider .slide-track2{
-    animation: scroll2 5s linear infinite;
+    /* animation: scroll2 5s linear infinite; */
     display: flex;
-    width: calc(200px * 7);
+    /* width: calc(200px * 7); */
 }
 
 .slider .slide{
     height: 100px;
-    width: 200px;
+    width: 100%;
 }
 
 .slide{
