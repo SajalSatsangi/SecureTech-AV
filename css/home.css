@@ -282,15 +282,15 @@ main {
 }
 
 .slider .slide-track{
-    animation: scroll 60s linear infinite;
+    animation: scroll 120s linear infinite;
     display: flex;
     width: calc(200px * 7);
 }
 
 .slider .slide-track2{
-    animation: scroll2 60s linear infinite;
+    animation: scroll2 120s linear infinite;
     display: flex;
-    width: calc(200px * 21);
+    width: calc(200px * 18);
 }
 
 .slider .slide{
