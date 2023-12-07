@@ -28,8 +28,7 @@ p{
 }
 
 .brand-logo {
-    /* height: 40px; */
-    /* width: 20%; */
+    width: 15%;
     float: left;
 }
 
@@ -59,5 +58,5 @@ p{
     width: 500px;
     left: 11px;
     font-size: 28px;
-    top: 17px;
+    top: 15px;
 }
