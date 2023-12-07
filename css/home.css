@@ -130,7 +130,7 @@ main {
     height: calc(25vh - 30px);
     background-image: url('../img/bg2.png');
     background-size: cover;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .hero-section-2 {
@@ -245,4 +245,70 @@ main {
 .part-text {
     display: flex;
     flex-direction: column;
+}
+
+/* our partners */
+
+.body{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(calc(-200px*19));
+    }
+}
+
+@keyframes scroll2{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translate(calc(-200px*2));
+    }
+}
+
+.slider .slide-track{
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(200px * 19);
+}
+
+.slider .slide-track2{
+    animation: scroll2 5s linear infinite;
+    display: flex;
+    width: calc(200px * 7);
+}
+
+.slider .slide{
+    height: 100px;
+    width: 200px;
+}
+
+.slide{
+    margin: 0 40px;
+}
+
+.sub-heading-6{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: none;
+    position: relative;
 }
