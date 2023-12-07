@@ -6,8 +6,7 @@ const createNav = () => {
         <div class="logo">
             <img src="img/logo.png" class="brand-logo" alt="">
             <div class="logo-name">
-                <h1>SECURETECH AV</h1>
-                <h1> DESIGNS PRIVATE LIMITED</h1>
+                <p>SecureTech AV Designs</p>
             </div>
         </div>
         <ul class="links-container">

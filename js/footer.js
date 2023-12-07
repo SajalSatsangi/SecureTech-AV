@@ -12,7 +12,7 @@ const createFooter = () => {
                 <h3 class="contact-title">CONTACT</h3>
                 <p>Company Address &#x3A; <span>Secure TechAV Designs Private Limited</span></p>
                 <span>A&#x2010;70&#x2010;SECTOR 33 NOIDA&#x2c; NOIDA&#x2c; UTTAR PRADESH&#x2c; 201301&#x2c; INDIA</span>
-                <p>Contact No. &#x3A; <span>8791302481 (Ashish Khanna)</span></p>
+                <p>Contact No. &#x3A; <span>7017247344</span></p>
                 <div>
                     <a href="https://www.facebook.com/profile.php?id=61553741201034&mibextid=LQQJ4d"><img src="img/facebook.png" class="contact-logo" alt=""></a>
                     <a href="https://instagram.com/secuetechav?utm_source=qr"><img src="img/instagram.png" class="contact-logo" alt=""></a>

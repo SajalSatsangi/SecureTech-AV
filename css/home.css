@@ -212,20 +212,6 @@ main {
     line-height: 32px;
 }
 
-.title:after {
-    content: '';
-
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0px;
-
-    border-width: 0 0 4px;
-    border-style: solid;
-    color: #E18B30;
-    filter: blur(1px);
-}
-
 .part {
     display: flex;
     justify-content: space-between;
