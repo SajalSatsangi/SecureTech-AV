@@ -10,7 +10,7 @@ const createFooter = () => {
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="contact">
                 <h3 class="contact-title">CONTACT</h3>
-                <p>Company Address &#x3A; <span>Secure TechAV Designs Private Limited</span></p>
+                <p>Company Address &#x3A; <span>SecureTech AV Designs Private Limited</span></p>
                 <span>A&#x2010;70&#x2010;SECTOR 33 NOIDA&#x2c; NOIDA&#x2c; UTTAR PRADESH&#x2c; 201301&#x2c; INDIA</span>
                 <p>Contact No. &#x3A; <span>7017247344</span></p>
                 <div>
@@ -22,13 +22,13 @@ const createFooter = () => {
             <div class="logo-bottom">
                 <img src="img/logo.png" class="bottom-brand-logo" alt="">
                 <div class="logo-bottom-name">
-                    <p>SECURETECH AV</p>
-                    <p> DESIGNS PRIVATE LIMITED</p>
+                    <p>SecureTech AV</p>
+                    <p> Designs Private Limited</p>
                 </div>
             </div>
             <div class="about">
                 <h4>ABOUT US</h4>
-                <span class="description">Secure TechAV Designs Private Limited is driven by a passion for absolute
+                <span class="description">SecureTech AV Designs Private Limited is driven by a passion for absolute
                     technology. Our company is a sound unit comprising eminent audio engineers & top of the league
                     infrastructure.The core strength of the company is Architectural Acoustics, sound system designing,
                     project execution with skilled workforce & post-project service.</span>
