@@ -33,8 +33,7 @@
     margin-bottom: 1vw;
 }
 
-.contact-sub-heading-2
-{
+.contact-sub-heading-2 {
     color: #E18B30;
     width: 80%;
 }
@@ -119,6 +118,78 @@
     outline: none;
 }
 
-.iframe-2{
+.iframe-2 {
     height: 36vw;
+}
+
+@media (max-width: 450px) {
+    .contact-container {
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        height: 110vw;
+        padding: auto;
+    }
+
+    .contact-sub-heading-2,
+    .contact-sub-heading-3{
+        font-size: 2.6vw;
+        margin-bottom: 1vw;
+    }
+
+    .input{
+        border-bottom: 0.35vw solid #000;
+        height: 2.6vw;
+        border-radius: 0.2vw;
+        padding-left: 0.4vw;
+        font-size: 2.5vw;
+    }
+
+    .textarea {
+        border: 0.35vw solid #000;
+        font-size: 2.5vw;
+        padding-left: 1.5vw;
+        padding-top: 1.5vw;
+    }
+
+    .contact-sub-heading-3 {
+        width: 40vw;
+    }
+
+    .space {
+        margin-left: 3.8vw;
+        margin-bottom: 6vw;
+    }
+
+    .submit {
+        top: 42vw;
+        right: 50vw;
+        border: 0.25vw solid #000;
+        padding: 1vw 1.8vw;
+        border-radius: 2.5vw;
+        cursor: pointer;
+        font-size: 2.5vw;
+    }
+
+    .contact-sub-heading{
+        width: 80vw;
+        font-size: 3vw;
+    }
+
+    .contact-content{
+        margin-left: 8vw;
+    }
+
+    .card{
+        font-size: 3vw;
+    }
+
+    .contact-form-title {
+        font-size: 4.5vw;
+        margin-bottom: 3.5vw;
+        margin-top: 3vw;
+    }
+
+    .iframe-2 {
+        height: 72vw;
+    }
 }
