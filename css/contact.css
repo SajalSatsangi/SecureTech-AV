@@ -140,9 +140,8 @@
         border-bottom: 0.35vw solid #000;
         height: 4.2vw;
         border-radius: 0.2vw;
-        padding-left: 0.8vw;
-        font-size: 2.5vw;
-        padding-bottom: 2vw;
+        font-size: 2.6vw;
+        padding: 1vw;
     }
 
     .textarea {
