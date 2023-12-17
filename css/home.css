@@ -343,6 +343,7 @@ main {
 
     main {
         height: calc(18vh - 30px);
+        margin-bottom: 5vw;
     }
 
     .product {
@@ -447,12 +448,13 @@ main {
         line-height: 2vw;
         font-size: 1.6vw;
     }
-    
+
     .part::after {
         border-width: 0 0 0.3vw;
     }
 
-    .part-img img , .part-img-2 img{
+    .part-img img,
+    .part-img-2 img {
         height: 9vw;
     }
 
