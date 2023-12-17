@@ -7,56 +7,126 @@
     font-family: 'Inter';
 }
 
-p{
+p {
     font-family: 'Inter';
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
 .navbar {
     position: sticky;
     top: 0;
     left: 0;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6vw;
     background: #111111;
-    z-index: 9;
+    color: #fff;
+    width: 100%;
+    z-index: 999999;
 }
 
-.nav {
-    padding: 0.6vw 2vw;
+.nav-links a {
+    color: #fff;
+}
+
+/* LOGO */
+.logo {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    width: 26.5%;
 }
 
 .brand-logo {
-    width: 12%;
-    float: left;
-}
-
-.links-container {
-    display: flex;
-    width: 35%;
-    padding: 0.6vw 0;
-    justify-content: space-between;
-    list-style: none;
-}
-
-.link {
-    text-transform: capitalize;
-    text-decoration: none;
-    color: #fff;
-    transition: .05s;
-    font-size: 1.3vw;
-}
-
-.link:hover {
-    color: rgb(245, 130, 31);
+    width: 17%;
+    margin-right: 0.8vw;
 }
 
 .logo-name {
     color: #fff;
-    position: relative;
-    width: 40vw;
-    left: 0.8vw;
-    font-size: 2vw;
-    top: 1.05vw;
+    font-size: 1.8vw;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 1.2vw;
+}
+
+.menu li:hover {
+    background: #111111;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+/* RESPONSIVE NAVBAR MENU STARTS */
+
+/* CHECKBOX HACK */
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+    display: none;
+    font-size: 4vw;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        background: #111111;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background: #111111;
+        transition: 0.3s ease;
+    }
+
+    .menu li+li {
+        margin-top: 12px;
+    }
+
+    input[type=checkbox]:checked~.menu {
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .logo-name {
+        color: #fff;
+        font-size: 3vw;
+    }
+
+    .logo {
+        width:auto;
+    }
+
+    .menu {
+        font-size: 3vw;
+    }
 }
