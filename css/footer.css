@@ -41,6 +41,7 @@ footer {
 .contact {
     display: flex;
     flex-direction: column;
+    margin-left: 6vw;
 }
 
 .contact-title {
@@ -68,6 +69,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: -15vw;
 }
 
 .logo-bottom-name p {
@@ -114,37 +116,32 @@ footer {
     font-size: 1.05vw;
 }
 
+.footer-section-2{
+    display: flex;
+    justify-content: space-between;
+}
 
-/* Screen :- Max Width 1024px */
-/* @media only screen and (max-width: 1024px) {
-    .about .description{
-        width: 34vw;
-        font-size: 1.2vw;
+
+@media only screen and (max-width: 450px) {
+
+    .footer-content {
+        flex-direction:column-reverse;
     }
-    h4{
-        font-size: 1.25vw;
+
+    .footer-section-2{
+        width: 100%;
+        justify-content: space-around;
     }
-    .contact-title {
-        font-size: small;
+
+    .logo-bottom {
+        margin-left: 0vw;
     }
+
+    .bottom-brand-logo {
+        margin-bottom: 2vw;
+    }
+
     .logo-bottom-name p {
-        font-size: 1.2vw;
-        width: 14vw;
+        font-size: 3vw;
     }
-    .contact p, .contact span{
-        font-size: 1.2vw;
-    }
-    iframe{
-        width: 14vw;
-        height: 14vw;
-    }
-    .contact p{
-        width: 21vw;
-    }
-    .contact{
-        margin-left: 0.5vw;
-    }
-    .read{
-        font-size: 1.4vw;
-    }
-} */
+}

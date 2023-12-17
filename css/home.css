@@ -278,7 +278,7 @@ main {
     }
 
     100% {
-        transform: translate(calc(-200px*50));
+        transform: translate(calc(-2000px*50));
     }
 }
 
@@ -288,18 +288,18 @@ main {
     }
 
     100% {
-        transform: translate(calc(-200px*50));
+        transform: translate(calc(-2000px*50));
     }
 }
 
 .slider .slide-track {
-    animation: scroll 120s linear infinite;
+    animation: scroll 3600s linear infinite;
     display: flex;
     width: calc(200px * 7);
 }
 
 .slider .slide-track2 {
-    animation: scroll2 120s linear infinite;
+    animation: scroll2 3600s linear infinite;
     display: flex;
     width: calc(200px * 18);
 }
