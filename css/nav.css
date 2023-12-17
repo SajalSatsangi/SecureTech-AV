@@ -12,10 +12,12 @@ p {
 }
 
 a {
+    font-family: 'Inter';
     text-decoration: none;
 }
 
 li {
+    font-family: 'Inter';
     list-style: none;
 }
 

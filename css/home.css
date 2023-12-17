@@ -71,7 +71,7 @@
     }
 
     to {
-        transform: translateX(-670%);
+        transform: translateX(-168vw);
     }
 }
 
@@ -85,7 +85,6 @@
     height: 20vw;
     overflow: hidden;
     border-radius: 0.5vw 0.5vw 0 0;
-
 }
 
 .product-thumb {
@@ -222,13 +221,15 @@ main {
     width: 40vw;
 }
 
-.part-text-title, .title-1{
+.part-text-title,
+.title-1 {
     line-height: 1.5vw;
     font-size: 1.2vw;
 }
 
 
-.part-des, .des-1{
+.part-des,
+.des-1 {
     line-height: 1.25vw;
     font-size: 1vw;
 }
@@ -251,23 +252,23 @@ main {
     flex-direction: column;
 }
 
-.part-img img{
+.part-img img {
     height: 5vw;
 }
 
-.part-img-2 img{
+.part-img-2 img {
     height: 5vw;
 }
 
 /* our partners */
 
-.body{
+.body {
     align-items: center;
     justify-content: center;
     margin-bottom: 6vw;
 }
 
-.slider{
+.slider {
     height: 10vw;
     margin: auto;
     overflow: hidden;
@@ -275,50 +276,52 @@ main {
     width: auto;
 }
 
-@keyframes scroll{
-    0%{
+@keyframes scroll {
+    0% {
         transform: translate(0);
     }
-    100%{
+
+    100% {
         transform: translate(calc(-200px*50));
     }
 }
 
-@keyframes scroll2{
-    0%{
+@keyframes scroll2 {
+    0% {
         transform: translate(0);
     }
-    100%{
+
+    100% {
         transform: translate(calc(-200px*50));
     }
 }
 
-.slider .slide-track{
+.slider .slide-track {
     animation: scroll 120s linear infinite;
     display: flex;
     width: calc(200px * 7);
 }
 
-.slider .slide-track2{
+.slider .slide-track2 {
     animation: scroll2 120s linear infinite;
     display: flex;
     width: calc(200px * 18);
 }
 
-.slider .slide{
+.slider .slide {
     height: 10vw;
     width: 100%;
 }
 
-.slide{
+.slide {
     margin: 0 2vw;
 }
 
-.slide img{
+.slide img {
     height: 70%;
 }
 
-.sub-heading-6{
+.sub-heading-6 {
     margin-bottom: 5vw;
     text-align: center;
     color: #000;
@@ -327,4 +330,66 @@ main {
     font-weight: 900;
     text-decoration: none;
     position: relative;
+}
+
+@media (max-width: 768px) {
+    .hero-section .sub-heading {
+        font-size: 5.5vw;
+        width: 64vw;
+        top: 20vw;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero-section {
+        height: calc(80vh - 120px);
+    }
+
+    main {
+        height: calc(12vh - 30px);
+    }
+
+    .product-title {
+        font-size: 4vw;
+    }
+
+    .product-card {
+        width: 28vw;
+        height: 41vw;
+        border-radius: 0.8vw;
+    }
+
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+    
+        to {
+            transform: translateX(-250vw);
+        }
+    }
+
+    .product-image {
+        width: 28vw;
+        height: 25vw;
+        border-radius: 0.8vw 0.8vw 0 0;
+    }
+
+    .product-thumb {
+        width: 28vw;
+        height: 25vw;
+        border-radius: 0.8vw 0.8vw 0 0;
+    }
+
+    .product-brand {
+        font-size: 2.18vw;
+    }
+
+    .product-info {
+        padding-top: 3vw;
+    }
+
+    .product-short-des {
+        font-size: 1.35vw;
+    }
 }
