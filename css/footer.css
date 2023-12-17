@@ -131,6 +131,7 @@ footer {
     .footer-section-2{
         width: 100%;
         justify-content: space-around;
+        margin: 2.5vw 0vw;
     }
 
     .logo-bottom {
@@ -143,5 +144,65 @@ footer {
 
     .logo-bottom-name p {
         font-size: 3vw;
+    }
+
+    .about {
+        margin-top: 1.4vw;
+        margin-left: 0vw;
+    }
+
+    .about h4{
+        font-size: 2.7vw;
+    }
+
+    .about .description {
+        width: 50vw;
+        margin: 0.9vw 0;
+        font-size: 2vw;
+    }
+
+    .read {
+        font-size: 2.8vw;
+    }
+
+    .iframe{
+        width: 23.5vw;
+        height: 23.5vw;
+        border-radius: 1.5vw;
+        margin: 0vw;
+        margin-left: -9vw;
+        margin-right: 4vw;
+    }
+
+    .contact {
+        margin-left: -25vw;
+    }
+
+    .contact-title {
+        margin-bottom: 0.8vw;
+        font-size: 2.5vw;
+    }
+
+    .contact-logo {
+        margin-right: 0.6vw;
+        margin-top: 0.2vw;
+        width: 12%;
+    }
+
+    .contact p {
+        width: 36.8vw;
+        margin-bottom: 1vw;
+        font-size: 1.9vw;
+    }
+
+    .contact span {
+        width: 23vw;
+        margin-bottom: 0.4vw;
+        font-size: 1.9vw;
+    }
+
+    .footer-bottom {
+        padding: 2vw;
+        font-size: 2.5vw;
     }
 }
