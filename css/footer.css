@@ -120,9 +120,18 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.footer-section-3{
+    display: flex;
+    justify-content: space-between;
+}
 
 
 @media only screen and (max-width: 450px) {
+
+    footer {
+        width: 100%;
+        padding: 0vw;
+    }
 
     .footer-content {
         flex-direction:column-reverse;
@@ -130,20 +139,32 @@ footer {
 
     .footer-section-2{
         width: 100%;
+        flex-direction: column-reverse;
         justify-content: space-around;
-        margin: 2.5vw 0vw;
+    }
+    .footer-section-3{
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 2.5vw 0vw;
+        padding: 4vw 4vw;
+        padding-bottom: 0vw;
     }
 
     .logo-bottom {
+        display: flex;
+        flex-direction: row;
         margin-left: 0vw;
     }
 
-    .bottom-brand-logo {
-        margin-bottom: 2vw;
+    .bottom-brand-logo{
+        width: 15%;
     }
 
     .logo-bottom-name p {
         font-size: 3vw;
+        text-align: left;
+        margin-left: 2vw;
     }
 
     .about {
@@ -152,57 +173,77 @@ footer {
     }
 
     .about h4{
-        font-size: 2.7vw;
+        visibility: hidden;
     }
 
     .about .description {
-        width: 50vw;
+        width: 100%;
         margin: 0.9vw 0;
-        font-size: 2vw;
-    }
-
-    .read {
         font-size: 2.8vw;
     }
 
-    .iframe{
-        width: 23.5vw;
-        height: 23.5vw;
-        border-radius: 1.5vw;
-        margin: 0vw;
-        margin-left: -9vw;
-        margin-right: 4vw;
+    .read {
+        visibility: hidden;
     }
 
-    .contact {
-        margin-left: -25vw;
+    .iframe{
+        width: 100%;
+        height: 150px;
+        border: none;
+        border-radius: 0%;
+    }
+
+    .contact{
+        margin-bottom: 3vw;
+        margin-top: -1vw;
     }
 
     .contact-title {
-        margin-bottom: 0.8vw;
-        font-size: 2.5vw;
+        visibility: hidden;
     }
 
     .contact-logo {
-        margin-right: 0.6vw;
-        margin-top: 0.2vw;
-        width: 12%;
+        width: 26%;
+        margin-right: 1vw;
+        margin-bottom: 2vw;
+        margin-top: -1vw;
+    }
+
+    .contact div{
+        margin: auto;
     }
 
     .contact p {
-        width: 36.8vw;
+        width: 100%;
         margin-bottom: 1vw;
-        font-size: 1.9vw;
+        font-size: 3vw;
     }
 
     .contact span {
-        width: 23vw;
+        width: 50vw;
         margin-bottom: 0.4vw;
-        font-size: 1.9vw;
+        font-size: 3vw;
     }
 
     .footer-bottom {
         padding: 2vw;
-        font-size: 2.5vw;
+        font-size: 3vw;
+        margin-top: 0%;
+    }
+
+    #a{
+        order: 1;
+    }
+    #x{
+        order: 2;
+    }
+    #y{
+        order: 3;
+    }
+    #z{
+        order: 4;
+    }
+    #k{
+        order: 5;
     }
 }
