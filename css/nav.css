@@ -21,21 +21,21 @@ p{
 }
 
 .nav {
-    padding: 12px 2vw;
+    padding: 0.6vw 2vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .brand-logo {
-    width: 15%;
+    width: 12%;
     float: left;
 }
 
 .links-container {
     display: flex;
     width: 35%;
-    padding: 10px 0;
+    padding: 0.6vw 0;
     justify-content: space-between;
     list-style: none;
 }
@@ -45,7 +45,7 @@ p{
     text-decoration: none;
     color: #fff;
     transition: .05s;
-    font-size: 19px;
+    font-size: 1.3vw;
 }
 
 .link:hover {
@@ -55,8 +55,8 @@ p{
 .logo-name {
     color: #fff;
     position: relative;
-    width: 500px;
-    left: 11px;
-    font-size: 28px;
-    top: 15px;
+    width: 40vw;
+    left: 0.8vw;
+    font-size: 2vw;
+    top: 1.05vw;
 }

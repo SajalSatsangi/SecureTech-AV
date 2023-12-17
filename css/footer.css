@@ -1,7 +1,7 @@
 footer {
     position: relative;
     width: 100%;
-    padding: 32px 1vw;
+    padding: 2vw 1vw;
     background: #212121;
     color: white;
 }
@@ -9,15 +9,24 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.iframe{
+    width: 12vw;
+    height: 12vw;
+    border-radius: 0.5vw;
+    margin-right: 2vw;
+    border: 0.2vw solid #959595;
 }
 
 .footer-content p {
     color: #E18B30;
-    font-size: small;
+    font-size: 0.9vw;
 }
 
 .footer-content span {
-    font-size: small;
+    font-size: 0.9vw;
 }
 
 .footer-content p span{
@@ -25,9 +34,8 @@ footer {
 }
 
 .location {
-    border: 3px solid #959595;
-    border-radius: 5px;
-    margin-top: 8px;
+    border: 0.3vw solid #959595;
+    border-radius: 0.5vw;
 }
 
 .contact {
@@ -36,55 +44,57 @@ footer {
 }
 
 .contact-title {
-    margin-bottom: 8px;
-    font-size: medium;
+    margin-bottom: 0.4vw;
+    font-size: 1vw;
 }
 
 .contact p {
-    width: 268px;
-    margin-bottom: 8px;
+    width: 16.8vw;
+    margin-bottom: 0.4vw;
 }
 
 .contact-logo {
-    margin-right: 6px;
-    margin-top: 2px;
+    margin-right: 0.4vw;
+    margin-top: 0.1vw;
+    width: 10%;
 }
 
 .contact span {
-    width: 180px;
-    margin-bottom: 8px;
+    width: 13vw;
+    margin-bottom: 0.4vw;
 }
 
 .logo-bottom {
     display: flex;
     flex-direction: column;
-    height: 64px;
     align-items: center;
-    margin-left: -28px;
-    margin-top: 10px;
 }
 
 .logo-bottom-name p {
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 .bottom-brand-logo {
     width: 60%;
-    margin-bottom: 8px;
+    margin-bottom: 0.4vw;
 }
 
 .about .description {
     color: #959595;
-    width: 464px;
-    margin: 8px 0;
-    font-size: small;
+    width: 30vw;
+    margin: 0.6vw 0;
+    font-size: 0.9vw;
 }
 
 .about {
-    margin-top: 16px;
-    margin-left: 72px;
+    margin-top: 1.4vw;
+    margin-left: 5.9vw;
+}
+
+.about h4{
+    font-size: 1vw;
 }
 
 .footer-bottom {
@@ -92,12 +102,49 @@ footer {
     justify-content: center;
     align-items: center;
     background: #111111;
-    padding: 12px;
+    padding: 1vw;
     color: #959595;
+    font-size: 1.2vw;
 }
 
 .read {
     color: #CCCCCC;
     text-decoration: none;
-    margin-top: 30px;
+    margin-top: 3vw;
+    font-size: 1.05vw;
 }
+
+
+/* Screen :- Max Width 1024px */
+/* @media only screen and (max-width: 1024px) {
+    .about .description{
+        width: 34vw;
+        font-size: 1.2vw;
+    }
+    h4{
+        font-size: 1.25vw;
+    }
+    .contact-title {
+        font-size: small;
+    }
+    .logo-bottom-name p {
+        font-size: 1.2vw;
+        width: 14vw;
+    }
+    .contact p, .contact span{
+        font-size: 1.2vw;
+    }
+    iframe{
+        width: 14vw;
+        height: 14vw;
+    }
+    .contact p{
+        width: 21vw;
+    }
+    .contact{
+        margin-left: 0.5vw;
+    }
+    .read{
+        font-size: 1.4vw;
+    }
+} */

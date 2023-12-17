@@ -1,5 +1,5 @@
 .solutions-page {
-    margin: 100px 50px;
+    margin: 8vw 5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -9,9 +9,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 508px;
-    width: 375px;
-    box-shadow: 1px 2px 3px 4px rgba(12, 12, 12, 0.2);
+    height: 37vw;
+    width: 25vw;
+    box-shadow: 0.1vw 0.2vw 0.3vw 0.3vw rgba(12, 12, 12, 0.2);
     background: #000;
     position: relative;
 }
@@ -21,14 +21,15 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 508px;
-    width: 375px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    height: 37vw;
+    width: 25vw;
+    box-shadow: 0.1vw 0.2vw 0.3vw 0.3vw rgba(12, 12, 12, 0.2);
     background: #000;
     position: absolute;
     color: white;
-    padding: 50px;
+    padding: 4vw;
     opacity: 0;
+    font-size: 1.2vw;
 }
 
 .sol:hover .sol-2 {
@@ -39,7 +40,7 @@
 .sol-container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin-bottom: 7vw;
 }
 
 .image-sol {
@@ -53,13 +54,13 @@
 }
 
 .bottom h3 {
-    margin-bottom: 10px;
-    font-size: 12px;
+    margin-bottom: 1vw;
+    font-size: 1vw;
     color: #DD9B00;
 }
 
 .bottom h2 {
-    font-size: 18px;
+    font-size: 1.2vw;
     color: white;
     text-decoration: underline;
 }

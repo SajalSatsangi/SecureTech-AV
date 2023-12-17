@@ -4,9 +4,9 @@ const createFooter = () => {
     footer.innerHTML = `
     <footer>
         <div class="footer-content">
-            <iframe
+            <iframe class="iframe"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.421942773989!2d77.3555313!3d28.587116100000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce51b9a3bb81f%3A0x806219bd741a009f!2sSECURETECH%20AV%20DESIGNS%20PRIVATE%20LIMITED!5e0!3m2!1sen!2sin!4v1701089400249!5m2!1sen!2sin"
-                width="166" height="166" style="border: 3px solid #959595; border-radius: 5px; opacity: 0.9; margin-right:40px;" allowfullscreen="" loading="lazy"
+                style="opacity: 0.9;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="contact">
                 <h3 class="contact-title">CONTACT</h3>
