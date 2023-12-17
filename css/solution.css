@@ -64,3 +64,8 @@
     color: white;
     text-decoration: underline;
 }
+
+
+@media (max-width: 450px) {
+    
+}
