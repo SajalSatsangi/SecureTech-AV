@@ -189,11 +189,7 @@ main {
     margin-bottom: 8vw;
 }
 
-.solutions-services {
-    border: 0.15vw black solid;
-    padding: 3vw 4vw;
-}
-
+.solutions-services,
 .venue-spaces {
     border: 0.15vw black solid;
     padding: 3vw 4vw;
@@ -346,7 +342,11 @@ main {
     }
 
     main {
-        height: calc(12vh - 30px);
+        height: calc(18vh - 30px);
+    }
+
+    .product {
+        padding-bottom: 2vh;
     }
 
     .product-title {
@@ -355,7 +355,7 @@ main {
 
     .product-card {
         width: 28vw;
-        height: 41vw;
+        height: 43vw;
         border-radius: 0.8vw;
     }
 
@@ -363,7 +363,7 @@ main {
         from {
             transform: translateX(0);
         }
-    
+
         to {
             transform: translateX(-250vw);
         }
@@ -391,5 +391,69 @@ main {
 
     .product-short-des {
         font-size: 1.35vw;
+        line-height: 1.5vw;
     }
+
+    .hero-section-2 .sub-heading-2 {
+        margin-top: 2vw;
+        font-size: 3.5vw;
+    }
+
+    .description .sub-heading-3 {
+        margin-top: 2.2vw;
+        font-size: 2.2vw;
+        width: 100%;
+    }
+
+    .content-3 {
+        width: 85%;
+    }
+
+    .sub-heading-6 {
+        font-size: 4.5vw;
+    }
+
+    .solutions {
+        flex-direction: column;
+    }
+
+    .solutions-services,
+    .venue-spaces {
+        padding: 8vw 8vw;
+        margin: auto;
+        margin-bottom: 3vw;
+    }
+
+    .title {
+        font-size: 3.2vw;
+        line-height: 3.2vw;
+        margin-bottom: 2vw;
+    }
+
+    .part {
+        margin: 2vw 0;
+        padding: 1vw 1vw;
+        width: 60vw;
+    }
+
+    .part-text-title,
+    .title-1 {
+        font-size: 2vw;
+        line-height: 2.5vw;
+    }
+
+    .part-des,
+    .des-1 {
+        line-height: 2vw;
+        font-size: 1.6vw;
+    }
+    
+    .part::after {
+        border-width: 0 0 0.3vw;
+    }
+
+    .part-img img , .part-img-2 img{
+        height: 9vw;
+    }
+
 }
