@@ -1,4 +1,7 @@
-# SecureTech AV Website
+![image](https://github.com/SajalSatsangi/SecureTech-AV/assets/119046714/ad4bcc7c-da06-440f-81d0-18f966ffb76d)![image](https://github.com/SajalSatsangi/SecureTech-AV/assets/119046714/a8268bf9-8003-4a77-956d-14e1a35dcdbf)# SecureTech AV Website
+
+![College Logo]()
+
 
 Welcome to the official repository for the responsive webpage created for SecureTech AV. This project aims to provide an engaging and accessible online presence for SecureTech AV, catering to various devices and screen sizes.
 
